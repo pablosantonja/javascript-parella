@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica_js_Erik_Pablo</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $("img").hide(3000);
+            $("h1").click(function(){
+                $("#hom").show(2000);
+            });
+            $("h2").click(function(){
+                $("#Jim").show(2000);
+            });
+            $("h3").click(function(){
+                $("#Peter").show(2000);
+            });
+            $("h4").click(function(){
+                $("#Dos").show(2000);
+            });
+            $("h5").click(function(){
+                $("#Gol").show(2000);
+            });
+            $("h6").click(function(){
+                $("#Who").show(2000);
+            });
+        });
+    </script>
+    <style type="text/css">
+       
+        body {
+            color: #999999;
+            font-size: 14px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        
+        h1{
+            color: black;
+        }
+        h2{
+            color: dimgrey;
+        }
+        h3{
+            color: darkgreen;
+        }
+        h4{
+            color: darkred;
+        }
+        h5{
+            color: brown;
+        }
+        h6{
+            color: darkmagenta;
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homer Simpson</h1>
+        <img id="hom" src="img/hom.gif.gif" alt="">
+    <h2>Jim Carrey</h2>
+        <img id="Jim" src="img/tenor.gif.gif" alt="">
+    <h3>Peter Griffin</h3>
+        <img id="Peter" src="img/peter.gif.gif" alt="">
+    <h4>Dos tontos</h4>
+        <img id="Dos" src="img/dos.gif.gif" alt="">
+    <h5>Gollum</h5>
+        <img id="Gol" src="img/gollum.gif.gif" alt="">
+    <h6>The Who</h6>
+        <img id="Who" src="img/who.gif.gif" alt="">
+</body>
+</html>
